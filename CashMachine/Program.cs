@@ -103,7 +103,7 @@ namespace CashMachine
                 {
                     
                     Console.Write("Enter the amount you want to restock ");
-                    int restockAmount = int.Parse(Console.ReadLine());
+                    int restockAmount = 10;
                     string[] deno = { "hundredNote", "fiftyNote", "twentyNote", "tenNote", "fiveNote", "oneNote" };
 
                     foreach (var item in deno)
